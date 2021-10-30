@@ -1,0 +1,39 @@
+PRODUCT
+    product_id (PK)
+    product_name
+    current_price
+    description
+
+CUSTOMER
+    customer_id (PK)
+    first_name
+    last_name
+    address
+    city
+    state
+    zip
+
+EMPLOYEE
+    employee_id (PK)
+    first_name
+    last_name
+    address
+    city
+    state
+    zip
+    phone
+    email
+    wage
+
+SALE
+    sale_id (PK)
+    sale_date
+    customer_id (references CUSTOMER)
+    emp[loyee_id (references EMPLOYEE)
+    tax
+    
+SALE_ITEM
+    sale_id (PK, references SALE)
+    product_id (PK, references PRODUCT)
+    discount
+    sale_price
