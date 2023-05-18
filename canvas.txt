@@ -1,0 +1,54 @@
+CREATE TABLE canvas.artist(
+   artist_id    INTEGER  NOT NULL PRIMARY KEY 
+  ,full_name    VARCHAR(29) NOT NULL
+  ,first_name   VARCHAR(12) NOT NULL
+  ,middle_names VARCHAR(16)
+  ,last_name    VARCHAR(16) NOT NULL
+  ,nationality  VARCHAR(9) NOT NULL
+  ,style        VARCHAR(20) NOT NULL
+  ,birth        INTEGER  NOT NULL
+  ,death        INTEGER  NOT NULL
+);
+
+CREATE TABLE canvas.work(
+   work_id   INTEGER  NOT NULL PRIMARY KEY 
+  ,name      VARCHAR(55) NOT NULL
+  ,artist_id INTEGER  NOT NULL
+  ,style     VARCHAR(18)
+  ,museum_id INTEGER  NOT NULL
+);
+
+CREATE TABLE canvas.subject(
+   work_id INTEGER  NOT NULL
+  ,subject VARCHAR(24) NOT NULL
+  ,PRIMARY KEY(work_id, subject)
+);
+
+CREATE TABLE canvas.museum(
+   museum_id INTEGER  NOT NULL PRIMARY KEY 
+  ,Name      VARCHAR(50) 
+  ,address   VARCHAR(31) 
+  ,city      VARCHAR(15) 
+  ,state     VARCHAR(20)
+  ,postal    VARCHAR(9)
+  ,country   VARCHAR(14) 
+  ,phone     VARCHAR(20) 
+  ,url       VARCHAR(61) 
+);
+
+CREATE TABLE canvas.museum_hours(
+   museum_id INTEGER  NOT NULL
+  ,day       VARCHAR(9) NOT NULL
+  ,open      VARCHAR(8) NOT NULL
+  ,close     VARCHAR(9) NOT NULL
+  ,PRIMARY KEY(museum_id,day)
+);
+
+create view work_link as SELECT work.*, '<a href="https://classic-paintings.blogspot.com/2022/02/'||artist_id||'.html?id='||work_id||'" target="_blank">show image</a>' as image_link from work;
+
+grant select on canvas.artist to public;
+grant select on canvas.work to public;
+grant select on canvas.subject to public;
+grant select on canvas.museum to public;
+grant select on canvas.museum_hours to public;
+grant select on canvas.work_link to public;
