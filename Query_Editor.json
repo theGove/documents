@@ -1,0 +1,21 @@
+{
+  "title": "Query Editore",
+  "text": "This is the Advanced query editor. Do what you say. Say what you mean.",
+  "scripts": [
+    {
+      "diagram": "canvas",
+      "filename": "artist",
+      "schema": "canvas",
+      "connection": "sql_book_connection",
+      "url": "",
+      "username": "",
+      "password": "Delphi.12345",
+      "owner": "atlas-query",
+      "dataset": "canvas",
+      "databaseName": "canvas",
+      "engine": "oracle",
+      "note": "Enter any notes here.",
+      "sql": "xSELECT first_name\n ,last_name\n ,phone\n ,email\nFROM customer\n"
+    }
+  ]
+}
