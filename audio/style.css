@@ -6,11 +6,14 @@ body{
 }
 #content{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
 }
 img{
     display: block; 
     margin: auto;
     width:100vw
+}
+#player{ 
+  /* top | right | bottom | left */
+  padding: 2rem 1rem 2rem 1rem;
+  font-size: 2rem;
 }
