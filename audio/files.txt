@@ -1,42 +1,29 @@
- Volume in drive C has no label.
- Volume Serial Number is 88D0-6636
-
- Directory of C:\Users\Gove\Code\chf\documents\audio
-
-07/03/2024  05:31 AM    <DIR>          .
-06/30/2024  06:48 PM    <DIR>          ..
-07/02/2024  05:22 AM    <DIR>          bor-broadside
-07/02/2024  05:30 AM    <DIR>          bor-house
-07/02/2024  05:42 AM    <DIR>          bor-senate
-07/02/2024  06:00 AM    <DIR>          boston-massacre
-07/01/2024  05:35 AM    <DIR>          boston-pass
-07/01/2024  09:50 AM    <DIR>          clemency
-07/01/2024  06:26 AM    <DIR>          commission
-06/30/2024  06:45 PM    <DIR>          constitution
-07/01/2024  07:48 AM    <DIR>          dunlap
-06/30/2024  06:45 PM    <DIR>          dunmore-congress
-06/30/2024  06:45 PM    <DIR>          dunmore-slaves
-06/30/2024  06:45 PM    <DIR>          farewell
-07/01/2024  06:47 AM    <DIR>          fasting
-07/03/2024  05:31 AM                 0 files.txt
-07/01/2024  09:25 AM    <DIR>          goddard
-07/01/2024  05:48 AM    <DIR>          gun-control
-07/01/2024  09:36 AM    <DIR>          howe
-07/01/2024  05:05 AM    <DIR>          indenture
-07/01/2024  07:04 AM    <DIR>          naval-bond
-07/01/2024  10:52 AM    <DIR>          oath
-06/30/2024  06:45 PM    <DIR>          patrick-henry
-07/01/2024  07:14 AM    <DIR>          privateers
-07/01/2024  06:03 AM    <DIR>          propaganda
-07/01/2024  07:32 AM    <DIR>          seamen
-07/01/2024  09:19 PM    <DIR>          secret-draft
-07/01/2024  11:47 AM    <DIR>          shays
-07/01/2024  05:17 AM    <DIR>          spy-1775
-07/01/2024  09:00 AM    <DIR>          spy-1776
-07/03/2024  04:52 AM    <DIR>          stamp-act
-06/30/2024  06:51 PM               356 style.css
-07/03/2024  05:30 AM    <DIR>          tea-party
-07/02/2024  05:51 AM           185,241 temp.html
-07/01/2024  05:28 AM    <DIR>          template
-               3 File(s)        185,597 bytes
-              32 Dir(s)  1,899,037,835,264 bytes free
+https://documents.colonialheritage.org/audio/bor-broadside
+https://documents.colonialheritage.org/audio/bor-house
+https://documents.colonialheritage.org/audio/bor-senate
+https://documents.colonialheritage.org/audio/boston-massacre
+https://documents.colonialheritage.org/audio/boston-pass
+https://documents.colonialheritage.org/audio/clemency
+https://documents.colonialheritage.org/audio/commission
+https://documents.colonialheritage.org/audio/constitution
+https://documents.colonialheritage.org/audio/dunlap
+https://documents.colonialheritage.org/audio/dunmore-congress
+https://documents.colonialheritage.org/audio/dunmore-slaves
+https://documents.colonialheritage.org/audio/farewell
+https://documents.colonialheritage.org/audio/fasting
+https://documents.colonialheritage.org/audio/goddard
+https://documents.colonialheritage.org/audio/gun-control
+https://documents.colonialheritage.org/audio/howe
+https://documents.colonialheritage.org/audio/indenture
+https://documents.colonialheritage.org/audio/naval-bond
+https://documents.colonialheritage.org/audio/oath
+https://documents.colonialheritage.org/audio/patrick-henry
+https://documents.colonialheritage.org/audio/privateers
+https://documents.colonialheritage.org/audio/propaganda
+https://documents.colonialheritage.org/audio/seamen
+https://documents.colonialheritage.org/audio/secret-draft
+https://documents.colonialheritage.org/audio/shays
+https://documents.colonialheritage.org/audio/spy-1775
+https://documents.colonialheritage.org/audio/spy-1776
+https://documents.colonialheritage.org/audio/stamp-act
+https://documents.colonialheritage.org/audio/tea-party
